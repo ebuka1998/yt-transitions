@@ -1,0 +1,87 @@
+ {/* <Pressable onPress={slideUp}>
+          <Animated.View
+            style={[
+              {
+                width: width,
+                backgroundColor: "gray",
+                borderTopWidth: 1,
+                borderTopColor: "#ebe5e5",
+                flexDirection: "row",
+                alignItems: "center",
+              },
+              rVideoStyle,
+            ]}
+          >
+            <View style={{flex: 4, flexDirection: "row", alignItems: "center"}}>
+              <Animated.View style={videoWidth}>
+                <Video
+                  ref={video}
+                  style={{height: "100%"}}
+                  source={selectedVideo.video}
+                  useNativeControls
+                  resizeMode="cover"
+                  isLooping
+                  onPlaybackStatusUpdate={(status) => setStatus(() => status)}
+                />
+                <View
+                  style={{
+                    position: "absolute",
+                    height: "100%",
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <View
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      justifyContent: "space-around",
+                      width: 300
+                    }}
+                  >
+                    <AntDesign
+                      name="banckward"
+                      size={32}
+                      color='red'
+                      onPress={() => console.log("first")}
+                    />
+                    <AntDesign
+                      name="play"
+                      size={32}
+                      color='red'
+                      onPress={() => console.log("first")}
+                    />
+                    <AntDesign
+                      name="forward"
+                      size={32}
+                      color='red'
+                      onPress={() => console.log("first")}
+                    />
+                  </View>
+                </View>
+              </Animated.View>
+              <Animated.Text style={textOpacity}>HELLO</Animated.Text>
+            </View>
+            <Animated.View
+              style={[
+                {
+                  flex: 1,
+                  flexDirection: "row",
+                  justifyContent: "space-around",
+                  marginRight: 10,
+                },
+                textOpacity,
+              ]}
+            >
+              <Ionicons
+                name="md-pause"
+                size={32}
+                onPress={() => console.log("first")}
+              />
+              <Ionicons name="md-close" size={32} onPress={() => endVideo()} />
+            </Animated.View>
+          </Animated.View>
+        </Pressable> */}
